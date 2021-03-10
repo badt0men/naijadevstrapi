@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_stacks_stacks",
+  "info": {
+    "name": "stacks",
+    "icon": "american-sign-language-interpreting",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tech": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

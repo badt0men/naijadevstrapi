@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "devs",
+  "info": {
+    "name": "devs",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "upvotes": {
+      "type": "integer"
+    },
+    "stacks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "stacks.stacks"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "github_url": {
+      "type": "string"
+    },
+    "reddit_url": {
+      "type": "string"
+    },
+    "dev_url": {
+      "type": "string"
+    },
+    "slack_channel": {
+      "type": "string"
+    },
+    "stack_overflow_url": {
+      "type": "string"
+    }
+  }
+}
