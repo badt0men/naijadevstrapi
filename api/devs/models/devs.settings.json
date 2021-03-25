@@ -40,6 +40,17 @@
     },
     "stack_overflow_url": {
       "type": "string"
+    },
+    "profile_pic": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
