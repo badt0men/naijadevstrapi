@@ -1,0 +1,9 @@
+{
+    "provider": "cloudinary",
+    "providerOptions": {
+      "cloud_name": "placmedia",
+      "api_key": "428634236754612",
+      "api_secret": "9ZhVz0AS0q_RAJmdyg3VGiMe0zk"
+    }
+  }
+  
