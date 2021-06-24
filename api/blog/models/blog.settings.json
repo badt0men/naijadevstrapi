@@ -11,15 +11,24 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "article": {
-      "type": "text",
-      "unique": false
-    },
     "title": {
       "type": "string"
     },
     "author": {
       "type": "string"
+    },
+    "featured_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "content": {
+      "type": "richtext"
     }
   }
 }
